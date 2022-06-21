@@ -1,0 +1,61 @@
+@import 'cursor.scss';
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9e076;
+  font-family: "Chalkduster", sans-serif;
+  color: #2d383a;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.game-square {
+  background: none;
+  border: 6px solid #50c878;
+  color: #2d383a;
+  font-size: 7vmin;
+  font-weight: bold;
+  height: 12vmin;
+  width: 12vmin;
+  display: flex;
+  justify-content: center;
+  background-color: #50c878;
+  font-family: "Chalkduster", sans-serif;
+  position: relative;
+
+}
+li{
+  list-style-type: none;
+  button{
+    background-color: #50c878;
+    color: #2d383a;
+    border-radius: 3vmin;
+    font-family: "Chalkduster", sans-serif;;
+  }
+}
+.play-again{
+  background-color: #50c878;
+  color: #2d383a;
+  border-radius: 3vmin;
+  font-family: "Chalkduster", sans-serif;
+}
+.wonTheGame{
+  font-size: 3vmin;
+}
+p{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
